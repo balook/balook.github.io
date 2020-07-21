@@ -5,9 +5,9 @@ title: About
 
 # About Me
 
-Hey..! prob here VAPT engineer,
+Hey..! [prob](https://twitter.com/critical_b0y) here VAPT engineer,
 
-A full time bugbounty hunter Who specialized in android and web application testing.
+A full time bugbounty hunter Who specialized in android and web application pentesting.
 
 
 
