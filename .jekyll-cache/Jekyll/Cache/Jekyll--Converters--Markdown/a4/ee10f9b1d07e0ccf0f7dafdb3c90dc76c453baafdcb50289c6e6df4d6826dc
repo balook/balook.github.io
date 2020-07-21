@@ -1,0 +1,22 @@
+I"<h1 id="creative-android-pin-bypass-with-race-conditon">Creative Android pin bypass with Race conditon</h1>
+
+<p>Hitting main activity multiple times app allowing to view any activity inside an app. without even entering the mobile pin.</p>
+
+<h2 id="bug">Bug</h2>
+
+<p>Application has a mobile pin security. without entering the pin you cant enter into the app.</p>
+
+<h1 id="bypass">Bypass</h1>
+
+<p>But by calling internal activities like settings.activity and notifications.activity with race condition . The app is showing settings page ,profile page. but the problem is it only allow us to see for some seconds.So we need to automate it and take the screen shot by calling the activites .</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>for i in $(seq 20);do adb shell am start -a android.intent.action.VIEW -n com.redacted.android/.MainActivity -d "https://redacted.com/notifications";adb shell screencap /sdcard/tmp/$i.png;done
+
+</code></pre></div></div>
+
+<p>The above command run 20 times and take screen shot of frontend and save it in sdcard directory.</p>
+
+<h1 id="impact-">Impact :</h1>
+
+<p>Attacker cant bypass the pin completely . but can view the content inside the app and know the sensitive info like . amount, profile info</p>
+:ET

