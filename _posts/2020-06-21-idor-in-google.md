@@ -37,7 +37,7 @@ guessing id here not possible . But if the victim shared his file the id will b
 ```
 September 29,2019 : Reported
 Oct 1, 2019	  : Triaged
-Oct 8, 2019	  : bountry awarded 5k$
+Oct 8, 2019	  : bounty awarded
 ```
 
 No thanks for reading the report :-
