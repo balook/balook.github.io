@@ -23,7 +23,7 @@ Go to project settings > TLS > use custom protocols and ciphers  > select all tl
 
 ![](./assets/insta2.PNG)
 
-For bypassing ssl unpinning i used [xposed  module](./android-instagram-ssl-unpinning).
+For bypassing ssl unpinning i used [xposed  module](./ssl-unpinning-with-xposed-installer).
 
 If you have any doubt dont contact me [@critical_b0y](https://twitter.com/critical_b0y)
 
