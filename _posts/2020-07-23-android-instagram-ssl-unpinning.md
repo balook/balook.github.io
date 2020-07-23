@@ -17,11 +17,11 @@ The problem with above apk is at the first time you install it . you can see the
 
 Go to project settings > TLS > use custom protocols and ciphers  > select all tls protocols and ciphers too.
 
-![](./insta.PNG)
+![](./assets/insta.PNG)
 
 # Now you can see the traffic
 
-![](./insta2.PNG)
+![](./assets/insta2.PNG)
 
 For bypassing ssl unpinning i used [xposed  module](./android-instagram-ssl-unpinning).
 
