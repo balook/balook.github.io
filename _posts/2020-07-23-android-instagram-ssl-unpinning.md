@@ -25,7 +25,7 @@ Go to project settings > TLS > use custom protocols and ciphers  > select all tl
 
 For bypassing ssl unpinning i used [xposed  module](./ssl-unpinning-with-xposed-installer).
 
-If you have any doubt dont contact me [@critical_b0y](https://twitter.com/critical_b0y)
+If you have any doubt dont contact me [@t3chman](https://twitter.com/t3chman)
 
 
 
