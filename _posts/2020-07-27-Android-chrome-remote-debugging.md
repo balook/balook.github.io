@@ -25,7 +25,7 @@ inspect it and now you can see the mobiel screen of chrome in pc chrome
 # Inspect tab
 ![](./assets/chrome.PNG)
 
-# Remote Adnroid tab
+# Remote Android tab
 
 `Change the url in this tab. and load arbitrary url in webview of the app`
 
