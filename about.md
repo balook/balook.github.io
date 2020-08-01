@@ -5,9 +5,9 @@ title: About
 
 # About Me
 
-Hey..! [prob](https://twitter.com/t3chman) here ..!
+Hey..! prob here! 
 
-A full time bugbounty hunter who specialized in android and web application pentesting.
+A full time bugbounty hunter.
 
 # Achievements
 
