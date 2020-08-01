@@ -42,8 +42,5 @@ Oct 8, 2019	  : bounty awarded
 
 No thanks for reading the report :-
 
-<!--
-## Contact me :
-[twitter](https://twitter.com/critical_b0y) [linkedin](https://www.linkedin.com/in/zbalu/)
--->
+
 [back](./)
