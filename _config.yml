@@ -1,13 +1,11 @@
-title: prob
-description: "prob a bugbounty hunter"
+title: Hacker-Blog
+description: "A Jekyll Blog Theme For Hackers"
 author:
-  name: "balook"
+  name: "balooz"
   email: "balooz@protonmail.com"
   url: "https://balook.github.io"
 
 baseurl: /
-
-google_analytics: UA-172908708-1
 
 source: .
 destination: ./_site
@@ -30,5 +28,6 @@ plugins:
   - jekyll-sitemap
 
 # Custom variables
-owner : "prob"
+owner : "balooz"
 year : "2020"
+

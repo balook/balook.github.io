@@ -16,8 +16,8 @@ body {
   padding: 0;
   background: $body-background url("../assets/bkg.png") 0 0;
   color: $body-foreground;
-  font-size: 21px;
-  line-height: 1.4;
+  font-size: 16px;
+  line-height: 1.5;
   font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
 }
 
@@ -62,13 +62,10 @@ header {
 
 .header-link {
   display: inline;
-  color: white;
-  font-size: 22px;
-
 }
 
 header h1 {
-  font-size: 25px;
+  font-size: 24px;
   line-height: 1.5;
   margin: 0;
   text-align: center;
@@ -110,7 +107,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #main_content h1 {
-  font-size: 24px;
+  font-size: 30px;
 }
 
 #main_content h2 {
@@ -118,7 +115,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #main_content h3 {
-  font-size: 24px;
+  font-size: 18px;
 }
 
 #main_content h4 {
@@ -239,7 +236,6 @@ hr {
 
 a {
   color: #63c0f5;
-  text-decoration : none;
   text-shadow: 0 0 5px rgba(104, 182, 255, 0.5);
 }
 
@@ -269,7 +265,6 @@ a:active, a:focus {
 .pagination, footer {
   height: 50px;
   line-height: 50px;
-  font-size : 21px;
   text-align: center;
 }
 
